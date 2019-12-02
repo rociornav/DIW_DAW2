@@ -26,7 +26,12 @@ body{
     text-align: center;
 }
 
-
+.colnum{
+    background-color: darkcyan;
+}
+.colimage{
+    background-color: #373642;
+}
 
 
 .bg-primary{
@@ -41,8 +46,14 @@ ul li a{
 }
 
 a:hover{
-    color: rgb(49, 139, 241);
-     
+    color: rgb(49, 139, 241); 
+}
+
+.fila{
+    border: 1px solid white;
+}
+.bordecol{
+    border: 1px solid white;
 }
 
 
@@ -67,3 +78,13 @@ a:hover{
    
 }
 
+@media screen and (min-width: 575px){
+    .col{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}
+
+.gamers{
+    background-color: rgba(250, 240, 107, 0.589);
+}
