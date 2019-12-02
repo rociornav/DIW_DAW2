@@ -1,0 +1,69 @@
+
+body{
+    padding-top: 0px;
+    margin: 0%;
+}
+.container-fluid{
+    background-color: rgba(250, 240, 107, 0.589);
+    /*height: 1200px;*/
+
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+
+.top-bar{
+    width: 100%;
+    background: #373642;
+    padding: 10px 15px;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+
+
+.bg-primary{
+    transition: all 1s ease;
+  }
+.top{
+    font-size: 20px;
+}
+
+ul li a{
+    cursor: pointer;
+}
+
+a:hover{
+    color: rgb(49, 139, 241);
+     
+}
+
+
+/*Adaptamos texto */
+@media screen and (max-width: 400px) {
+    /* reglas de diseño para el ancho ANCHO o menos */
+    .top{
+        font-size: 40px;
+        
+    }
+    p{
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 400px) {
+    /* reglas de diseño para el ancho ANCHO o menos */
+    .top{
+        font-size: 25px;
+        
+    }
+   
+}
+
